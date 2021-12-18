@@ -1,0 +1,32 @@
+* {
+    /* background-color: salmon; */
+}
+
+.text-right {
+    text-align: end;
+    list-style-type: none;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.about {
+    text-align: start;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.portfolio-header {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
