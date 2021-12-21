@@ -5,70 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/reset.css" />
     <title>Andrew's Portfolio</title>
   </head>
   <body>
     <header>
       <h1>Andrew Tran</h1>
-      <nav class="text-right">
-          <!-- added the style tag in the <ul> to remove the bullets from the <nav> -->
-        <ul style="list-style: none;">
-          <li><a href="">About Me</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact Me</a></li>
+      <nav>
+        <ul>
+          <li><a class="navbar" href="#aboutme">About Me</a></li>
+          <li><a class="navbar" href="#portfolio-id">Portfolio</a></li>
+          <li><a class="navbar" href="#contactme">Contact Me</a></li>
         </ul>
       </nav>
-      <br />
-      <!-- Image attribute will go here as well that will span across the page -->
-      <h2>Subtitle Will Go Here</h2>
     </header>
+    <div class="hero">
+      <h1>Sleek Subtitle</h1>
+    </div>
 
-    <main>
-      <h3 class="about">About Me</h3>
-      <section class="about-text">
-        <p>
-          About Me Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          quae nam vitae amet beatae, ipsa corrupti laboriosam atque mollitia
-          voluptas velit non. Sed perspiciatis officia beatae nam mollitia amet
-          sapiente?
-        </p>
-        <!-- Image attribute will go here as well--this will be a photo of me that's set to the right of the paragraph -->
+  <main>
+    <div class="left-section">
+      <section class="left-section-text">
+        <h2>
+          About Me
+        </h2>
+    </div>
       </section>
-      <!-- Portfolio will be alinged to the RIGHT of the page next to the <p> tags and separated by parallel lines that separate the <p> tags from the <h3> -->
-      <h3 class="portfolio-header">Portfolio</h3>
-      <section class="portfolio">
-        <p>
-          Portfolio Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Pariatur illum modi inventore dolor officia magnam ipsam molestias,
-          perferendis, iure quam sunt rem nesciunt repudiandae aut velit tenetur
-          reprehenderit, totam beatae.
-        </p>
-        <br />
-        <p>
-          Portfolio Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Pariatur illum modi inventore dolor officia magnam ipsam molestias,
-          perferendis, iure quam sunt rem nesciunt repudiandae aut velit tenetur
-          reprehenderit, totam beatae.
-        </p>
-        <br />
-        <p>
-          Portfolio Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Pariatur illum modi inventore dolor officia magnam ipsam molestias,
-          perferendis, iure quam sunt rem nesciunt repudiandae aut velit tenetur
-          reprehenderit, totam beatae.
-        </p>
-        <br />
-      </section>
-      <br>
-      <h3>Contact Me</h3>
-      <section class="contact">
-      <p>andrewtranmsw@gmail.com</p>
-      <p>555-555-5555</p>
-      </section>
-    </main>
+      <section class="about-me-text" class="aboutme">
+        <p class="about-me-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis ad aspernatur quasi ab cumque quo suscipit accusamus. Soluta incidunt autem doloribus nostrum reprehenderit at ipsa porro quis! Eveniet harum alias sequi odit amet. Deleniti ullam iure quod cumque soluta. Consectetur iure quasi rerum, illum hic fugit laboriosam tenetur fugiat dolore veritatis inventore consequatur expedita! Possimus itaque nam earum quos nihil similique neque doloremque dolores quibusdam? Officiis harum deserunt omnis sapiente error enim asperiores totam cupiditate labore, nihil numquam delectus fugiat quod quisquam eveniet reprehenderit laudantium voluptates! Doloremque nisi vero facilis obcaecati nesciunt optio atque iste blanditiis eius architecto, vitae unde numquam, quaerat adipisci totam reprehenderit cupiditate fuga ea ipsum recusandae libero. Natus quisquam fuga sapiente deleniti ipsam molestiae, veritatis aliquid, hic voluptates temporibus quam nesciunt optio architecto possimus, eius nulla! Aperiam architecto explicabo pariatur, quas facere laudantium dolore rerum culpa eos exercitationem in natus impedit iste quia mollitia consequuntur. Quisquam, delectus quis accusamus iste id magnam earum soluta et suscipit saepe? Dolorem quam blanditiis aspernatur odit? Explicabo repellendus dolores voluptatibus esse est consequatur facere ea sapiente dicta, quia, consequuntur doloribus laborum nemo possimus pariatur blanditiis impedit ullam eius dignissimos inventore libero porro? Inventore, consequatur reiciendis! Incidunt laudantium error modi.
 
-    <footer class="text-center">
-        Blah blah blah Copyright 2021.
-    </footer>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, natus quam nam tempora rerum debitis consequuntur temporibus nobis et sed. Commodi soluta non modi nam repudiandae, eaque sunt, quibusdam quia ullam distinctio, quos perferendis harum! Sit itaque sunt corporis in, dolorem repellendus qui. Ipsam molestias minima assumenda magnam ea esse.
+        </p>
+      </section>
+    
+<!-- Cards Start -->
+<div class="left-section">
+  <section class="left-section-text" id="portfolio-id">
+    <h2>
+      Portfolio
+    </h2>
+  </section>
+</div>
+
+<div class="portfolio">
+  <section class="card-manga">
+    <h4 class="card-head-manga">Manga about Programming</h4>
+    <img src="./assets/animecoder.jpg" alt="anime girl holding c++ book">
+  </section>
+  <section class="card">
+    <h4 class="card-head">Programming for Manatees</h4>
+    <img src="./assets/manatee.jpg" alt="manatee swimming in water">
+  </section>
+  <section class="card">
+    <h4 class="card-head">Programming for Senior Homes</h4>
+    <img src="./assets/boomer.jpg" alt="senior frustrated on the computer">
+  </section>
+  <section class="card">
+    <h4 class="card-head">Programming for Aeons</h4>
+    <img src="./assets/yojimbo.jpg" alt="yojimbo from FFX standing">
+  </section>
+  <section class="card">
+    <h4 class="card-head">Programming for Middle Management</h4>
+    <img src="./assets/choke.jpg" alt="a man choking a woman">
+  </section>
+</div>
+
+<!-- Cards End -->
+
+<div class="contact-left">
+  <h2> Contact Me</h2>
+</div>
+
+<section class="contact-info" id="contactme">
+<h5>
+  206-555-5555
+</h5>
+
+<h5>
+  andrewtranmsw@gmail.com
+</h5>
+
+<h5>
+  GitHub
+</h5>
+
+<h5>
+  Instagram
+</h5>
+
+</section>
+</main>
+
+    <footer class="text-center">Blah blah blah Copyright 2021.</footer>
   </body>
 </html>
