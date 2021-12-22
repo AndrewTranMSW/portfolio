@@ -186,16 +186,19 @@ main {
   padding-bottom: 10px;
 }
 
-.contact-info h2 h5 {
+.contact-info h2 a {
   display: inline-block;
 }
 
-.contact-info h5 {
+.contact-info a {
   display: flex;
   display: inline;
+  font-size: 20px;
+  text-decoration: none;
+  justify-content: space-evenly;
 }
 
-.contact-info h5:hover {
+.contact-info a:hover {
   color: violet;
 }
 
